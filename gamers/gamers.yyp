@@ -1,10 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
     {"id":{"name":"sInventory","path":"sprites/sInventory/sInventory.yy",},"order":0,},
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},"order":0,},
     {"id":{"name":"sSlot","path":"sprites/sSlot/sSlot.yy",},"order":1,},
-    {"id":{"name":"sItem","path":"sprites/sItem/sItem.yy",},"order":2,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"sItems","path":"sprites/sItems/sItems.yy",},"order":2,},
   ],
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
@@ -18,7 +18,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room0","path":"rooms/room0/room0.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
