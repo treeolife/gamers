@@ -5,16 +5,16 @@
 /// @DnDArgument : "value" "15"
 #macro INVENTORY_SLOTS 15
 
-/// @DnDAction : YoYo Games.Common.Temp_Variable
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 6EC79C32
+/// @DnDHash : 1E809704
 /// @DnDInput : 2
+/// @DnDArgument : "expr" "6"
+/// @DnDArgument : "expr_1" "array_create(INVENTORY_SLOTS, -1)"
 /// @DnDArgument : "var" "rowLength"
-/// @DnDArgument : "value" "6"
 /// @DnDArgument : "var_1" "inventory"
-/// @DnDArgument : "value_1" "array_create(INVENTORY_SLOTS, -1);"
-var rowLength = 6;
-var inventory = array_create(INVENTORY_SLOTS, -1);;
+rowLength = 6;
+inventory = array_create(INVENTORY_SLOTS, -1);
 
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
@@ -25,9 +25,10 @@ randomize();
 /// @DnDVersion : 1
 /// @DnDHash : 22BC0C74
 /// @DnDInput : 3
+/// @DnDArgument : "expr_2" "1"
 /// @DnDArgument : "var" "inventory[0]"
 /// @DnDArgument : "var_1" "inventory[1]"
 /// @DnDArgument : "var_2" "inventory[2]"
 inventory[0] = 0;
 inventory[1] = 0;
-inventory[2] = 0;
+inventory[2] = 1;
