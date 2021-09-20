@@ -1,6 +1,7 @@
 {
   "resources": [
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":0,},
+    {"id":{"name":"sInventory","path":"sprites/sInventory/sInventory.yy",},"order":0,},
+    {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
