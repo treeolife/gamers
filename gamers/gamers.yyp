@@ -2,6 +2,8 @@
   "resources": [
     {"id":{"name":"sInventory","path":"sprites/sInventory/sInventory.yy",},"order":0,},
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},"order":0,},
+    {"id":{"name":"sSlot","path":"sprites/sSlot/sSlot.yy",},"order":1,},
+    {"id":{"name":"sItem","path":"sprites/sItem/sItem.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
