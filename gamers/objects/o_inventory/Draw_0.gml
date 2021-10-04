@@ -1,6 +1,6 @@
 draw_sprite_stretched
 (
-	sInventory, 
+	s_inventory, 
 	0, 
 	x-6, 
 	y-6, 
@@ -12,9 +12,9 @@ for (var i = 0; i < INVENTORY_SLOTS; i += 1)
 {
 	var xx = x + (i mod rowLength) * 36 + 2;
 	var yy = y + (i div rowLength) * 36 + 2;
-	draw_sprite(sSlot,0,xx,yy)
+	draw_sprite(s_slot,0,xx,yy)
 	if (inventory[i] != -1)
 	{
-		draw_sprite(sItems,inventory[i],xx,yy);
+		draw_sprite(s_items,inventory[i],xx,yy);
 	}
 }

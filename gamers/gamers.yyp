@@ -1,10 +1,15 @@
 {
   "resources": [
-    {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
-    {"id":{"name":"sInventory","path":"sprites/sInventory/sInventory.yy",},"order":0,},
-    {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},"order":0,},
-    {"id":{"name":"sSlot","path":"sprites/sSlot/sSlot.yy",},"order":1,},
-    {"id":{"name":"sItems","path":"sprites/sItems/sItems.yy",},"order":2,},
+    {"id":{"name":"move_and_collide","path":"scripts/move_and_collide/move_and_collide.yy",},"order":0,},
+    {"id":{"name":"o_environment","path":"rooms/o_environment/o_environment.yy",},"order":0,},
+    {"id":{"name":"s_midori","path":"sprites/s_midori/s_midori.yy",},"order":3,},
+    {"id":{"name":"o_midori","path":"objects/o_midori/o_midori.yy",},"order":1,},
+    {"id":{"name":"s_inventory","path":"sprites/s_inventory/s_inventory.yy",},"order":0,},
+    {"id":{"name":"o_inventory","path":"objects/o_inventory/o_inventory.yy",},"order":0,},
+    {"id":{"name":"s_slot","path":"sprites/s_slot/s_slot.yy",},"order":1,},
+    {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":15,},
+    {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":2,},
+    {"id":{"name":"s_items","path":"sprites/s_items/s_items.yy",},"order":2,},
   ],
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
@@ -18,7 +23,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"room0","path":"rooms/room0/room0.yy",},},
+    {"roomId":{"name":"o_environment","path":"rooms/o_environment/o_environment.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -44,7 +49,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "gamers",
