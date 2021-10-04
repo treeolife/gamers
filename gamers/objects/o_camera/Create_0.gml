@@ -1,13 +1,7 @@
-camera = camera_create();
-
-var view_matrix = matrix_build_lookat(x,y,-10,x,y,0,0,1,0);
-var proj_matrix = matrix_build_projection_ortho(640,480,1,10000);
-
-camera_set_view_mat(camera,view_matrix);
-camera_set_proj_mat(camera,proj_matrix);
-
-view_camera[0] = camera;
-
+/// @description Set up camera
+cam = view_camera[0];
 follow = o_midori;
-x_to = x;
-y_to = y;
+view_w_half = camera_get_view_width(cam) * 0.5;
+view_h_half = camera_get_view_height(cam) * 0.5;
+x_to = xstart;
+y_to = ystart;
