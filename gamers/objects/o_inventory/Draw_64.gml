@@ -10,7 +10,7 @@ draw_sprite_stretched
 	12+(((INVENTORY_SLOTS-1) div rowLength)+1)*36
 );
 
-draw_text(x+100,y,"seeds: " + string(global.seeds));
+draw_text(x+150,y,"seeds: " + string(global.seeds));
 //draw_text(x+100,y+10,"dsmap: " + string(ds_map_values_to_array(global.inventory)));
 
 for (var i = 0; i < INVENTORY_SLOTS; i += 1)
