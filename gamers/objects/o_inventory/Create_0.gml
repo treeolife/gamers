@@ -1,4 +1,4 @@
-rowLength = 6;
+rowLength = 3;
 inventory = array_create(INVENTORY_SLOTS, -1);
 
 inventory[0] = 0;

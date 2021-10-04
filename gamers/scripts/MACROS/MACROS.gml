@@ -4,5 +4,5 @@
 
 #macro FRAME_RATE 60
 #macro TILE_SIZE 32
-#macro INVENTORY_SLOTS 12
+#macro INVENTORY_SLOTS 6
 #macro ROOM_START r_start

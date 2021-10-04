@@ -2,13 +2,12 @@
 var p1,p2,bbox_side;
 
 // Keyboard inputs
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
+key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_up = keyboard_check(vk_up);
-key_down = keyboard_check(vk_down);
-key_plant = keyboard_check(ord("R"));
-key_water = keyboard_check(ord("W"));
+key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 key_jump = keyboard_check(vk_space);
+//key_water = keyboard_check(ord("W"));
 
 // Calculate movement
 move = (key_right - key_left) * SPD_WALK
@@ -22,7 +21,7 @@ var grounded = (in_floor(tilemap,x,bbox_bottom+1) >= 0);
 // Jump
 if (grounded || (in_floor(tilemap,bbox_left,bbox_bottom+1) >= 0) || (in_floor(tilemap,bbox_right,bbox_bottom+1) >= 0))
 {
-	if (key_up || key_jump)	
+	if (key_jump)	
 	{
 		vsp = -SPD_JUMP;
 		grounded = false;
