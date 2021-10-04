@@ -1,5 +1,6 @@
-// Temp vars
+#region Temp vars
 var p1,p2,bbox_side;
+#endregion
 
 // Keyboard inputs
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
@@ -7,18 +8,20 @@ key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_up = keyboard_check(vk_up);
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 key_jump = keyboard_check(vk_space);
-//key_water = keyboard_check(ord("W"));
+key_water = ord("C");
+key_plant = ord("X");
 
-// Calculate movement
+#region Calculate movement
 move = (key_right - key_left) * SPD_WALK
 hsp = move;
 //vsp += (key_down - key_up) * SPD_WALK;
 vsp += SPD_GRAVITY;
+#endregion
 
 // Is my middle center touching floor at the start of frame
 var grounded = (in_floor(tilemap,x,bbox_bottom+1) >= 0);
 
-// Jump
+#region Jump
 if (grounded || (in_floor(tilemap,bbox_left,bbox_bottom+1) >= 0) || (in_floor(tilemap,bbox_right,bbox_bottom+1) >= 0))
 {
 	if (key_jump)	
@@ -27,7 +30,9 @@ if (grounded || (in_floor(tilemap,bbox_left,bbox_bottom+1) >= 0) || (in_floor(ti
 		grounded = false;
 	}
 }
+#endregion
 
+#region Fractions
 // Re apply fractions
 hsp += hsp_fraction;
 vsp += vsp_fraction;
@@ -38,8 +43,9 @@ hsp_fraction = hsp - (floor(abs(hsp)) * sign(hsp));
 hsp -= hsp_fraction;
 vsp_fraction = vsp - (floor(abs(vsp)) * sign(vsp));
 vsp -= vsp_fraction;
+#endregion
 
-// Horizontal Collision
+#region Horizontal collision
 if (hsp > 0) bbox_side = bbox_right; else bbox_side = bbox_left;
 p1 = tilemap_get_at_pixel(tilemap,bbox_side+hsp,bbox_top);
 p2 = tilemap_get_at_pixel(tilemap,bbox_side+hsp,bbox_bottom);
@@ -54,8 +60,9 @@ if ((p1 == 1) || (p2 == 1))
 }
 
 x += hsp;
+#endregion
 
-// Vertical Collision
+#region Vertical collision
 if (tilemap_get_at_pixel(tilemap,x,bbox_bottom+vsp) <= 1)
 {
 	if (vsp > 0) bbox_side = bbox_bottom; else bbox_side = bbox_top;
@@ -80,8 +87,9 @@ if (floor_dist >= 0)
 }
 
 y += vsp;
+#endregion
 
-// Walk down slopes
+#region Walk down slopes
 if (grounded)
 {
 	y += abs(floor_dist)-1;
@@ -96,6 +104,15 @@ if (grounded)
 		}
 	}
 }
+#endregion
+
+#region Plant seed
+if (keyboard_check_pressed(key_plant) && global.seeds > 0)
+{
+	seed_id = instance_create_layer(x,y-1,layer,o_seed);
+	global.seeds--;
+}
+#endregion
 
 switch (state)
 {

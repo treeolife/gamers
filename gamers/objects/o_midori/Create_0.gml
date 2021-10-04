@@ -6,4 +6,7 @@ vsp = 0;
 hsp_fraction = 0;
 vsp_fraction = 0;
 
+global.seeds = 0;
+global.inventory = ds_map_create();
+
 state = "move";
