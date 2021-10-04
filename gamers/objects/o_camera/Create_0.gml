@@ -7,3 +7,7 @@ camera_set_view_mat(camera,view_matrix);
 camera_set_proj_mat(camera,proj_matrix);
 
 view_camera[0] = camera;
+
+follow = o_midori;
+x_to = x;
+y_to = y;
