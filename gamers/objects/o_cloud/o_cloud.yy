@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "s_seed",
-    "path": "sprites/s_seed/s_seed.yy",
+    "name": "s_cloud",
+    "path": "sprites/s_cloud/s_cloud.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_interact",
-    "path": "objects/o_interact/o_interact.yy",
+    "name": "o_life",
+    "path": "objects/o_life/o_life.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,17 +24,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":69,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":87,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_seed",
+  "name": "o_cloud",
   "tags": [],
   "resourceType": "GMObject",
 }

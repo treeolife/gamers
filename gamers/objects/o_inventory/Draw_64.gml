@@ -11,7 +11,7 @@ draw_sprite_stretched
 );
 
 draw_text(x+150,y,"seeds: " + string(global.seeds));
-//draw_text(x+100,y+10,"dsmap: " + string(ds_map_values_to_array(global.inventory)));
+draw_text(x+150,y+20,"press x to plant seeds");
 
 for (var i = 0; i < INVENTORY_SLOTS; i += 1)
 {

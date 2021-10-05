@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 32,
-  "bbox_right": 415,
-  "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_left": 8,
+  "bbox_right": 22,
+  "bbox_top": 8,
+  "bbox_bottom": 30,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 416,
+  "width": 32,
   "height": 32,
   "textureGroupId": {
     "name": "Default",
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"348e775f-6df1-43c4-bff9-7fa47532b28e","path":"sprites/s_collision/s_collision.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"348e775f-6df1-43c4-bff9-7fa47532b28e","path":"sprites/s_collision/s_collision.yy",},"LayerId":{"name":"6d9f3b38-58c5-49a6-b105-126bc7d3213c","path":"sprites/s_collision/s_collision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},"resourceVersion":"1.0","name":"348e775f-6df1-43c4-bff9-7fa47532b28e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"aabedf4e-357e-4fb6-9f20-979b660e19e9","path":"sprites/s_sunflower/s_sunflower.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"aabedf4e-357e-4fb6-9f20-979b660e19e9","path":"sprites/s_sunflower/s_sunflower.yy",},"LayerId":{"name":"8f9841dd-c68a-4fd1-996b-b0c9090cb741","path":"sprites/s_sunflower/s_sunflower.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_sunflower","path":"sprites/s_sunflower/s_sunflower.yy",},"resourceVersion":"1.0","name":"aabedf4e-357e-4fb6-9f20-979b660e19e9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},
+    "spriteId": {"name":"s_sunflower","path":"sprites/s_sunflower/s_sunflower.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1807cba4-f71c-4656-bcef-e6b5401bff3c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"348e775f-6df1-43c4-bff9-7fa47532b28e","path":"sprites/s_collision/s_collision.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cfcfc92f-50d4-43cf-9d8d-0ef1b1609a28","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aabedf4e-357e-4fb6-9f20-979b660e19e9","path":"sprites/s_sunflower/s_sunflower.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},
+    "parent": {"name":"s_sunflower","path":"sprites/s_sunflower/s_sunflower.yy",},
     "resourceVersion": "1.3",
-    "name": "s_collision",
+    "name": "s_sunflower",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6d9f3b38-58c5-49a6-b105-126bc7d3213c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8f9841dd-c68a-4fd1-996b-b0c9090cb741","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_collision",
+  "name": "s_sunflower",
   "tags": [],
   "resourceType": "GMSprite",
 }

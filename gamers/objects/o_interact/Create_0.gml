@@ -8,5 +8,6 @@ vsp_fraction = 0;
 #region Interaction
 radius = 31;
 has_been_interacted = false;
+planted = false;
 created = false;
 #endregion
