@@ -6,3 +6,5 @@
 #macro TILE_SIZE 32
 #macro INVENTORY_SLOTS 6
 #macro ROOM_START r_start
+
+#macro DEBUG true

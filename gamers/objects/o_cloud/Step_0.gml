@@ -36,7 +36,19 @@ if ((p1 == 1) || (p2 == 1))
 {
 	if (hsp > 0) x = x - (x mod TILE_SIZE) + (TILE_SIZE-1) - (bbox_right-x);
 	else x = x - (x mod TILE_SIZE) - (bbox_left - x);
-	hsp = -hsp;
+	hsp = 0;
+	if (go_left)
+		go_left = false;
+	else
+		go_left = true;
+}
+
+if (hsp == 0) 
+{
+	if (go_left)
+		hsp = -SPD_WALK/2;
+	else
+		hsp = SPD_WALK/2;
 }
 
 x += hsp;
