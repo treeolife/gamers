@@ -16,6 +16,7 @@ jobs:
           - gamers.zip
     name: Deploy - Itch.io ${{ matrix.template }}
     steps:
+      - uses: actions/checkout@v2
       - uses: actions/download-artifact@v2.0.8
         with:
           name: ${{ matrix.template }}
