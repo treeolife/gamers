@@ -1,10 +1,14 @@
+name: Upload gamers.zip
 on: push
-  steps:
-  - uses: actions/checkout@v2
+jobs:
+  upload-file:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
 
-  - uses: actions/download-artifact@v2
-    with:
-      name: gamers.zip
+    - uses: actions/download-artifact@v2
+      with:
+        name: gamers.zip
       
-  - name: Display structure of downloaded files
-    run: ls -R
+    - name: Display structure of downloaded files
+      run: ls -R
