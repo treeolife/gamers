@@ -6,7 +6,6 @@ env:
   ITCH_GAME_ID: treeoflife
 jobs:
   deploy:
-    name: Upload to Itch
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true
