@@ -1,9 +1,10 @@
-steps:
-- uses: actions/checkout@v2
+on: push
+  steps:
+  - uses: actions/checkout@v2
 
-- uses: actions/download-artifact@v2
-  with:
-    name: gamers.zip
-    
-- name: Display structure of downloaded files
-  run: ls -R
+  - uses: actions/download-artifact@v2
+    with:
+      name: gamers.zip
+      
+  - name: Display structure of downloaded files
+    run: ls -R
