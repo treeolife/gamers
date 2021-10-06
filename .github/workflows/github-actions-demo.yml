@@ -15,7 +15,6 @@ jobs:
           - html
         template:
           - gamers.zip
-    runs-on: ubuntu-latest
     name: Deploy - Itch.io ${{ matrix.template }}
     steps:
       - uses: actions/download-artifact@v2.0.8
