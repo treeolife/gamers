@@ -17,10 +17,6 @@ jobs:
     name: Deploy - Itch.io ${{ matrix.template }}
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/download-artifact@v2.0.8
-        with:
-          name: ${{ matrix.template }}
-          path: ./
       - uses: KikimoraGames/itch-publish@v0.0.3
         with:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
