@@ -10,6 +10,7 @@
     {"id":{"name":"in_floor","path":"scripts/in_floor/in_floor.yy",},"order":3,},
     {"id":{"name":"o_life","path":"objects/o_life/o_life.yy",},"order":8,},
     {"id":{"name":"o_sunflower","path":"objects/o_sunflower/o_sunflower.yy",},"order":1,},
+    {"id":{"name":"s_treeolife","path":"sprites/s_treeolife/s_treeolife.yy",},"order":15,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":4,},
     {"id":{"name":"s_seed","path":"sprites/s_seed/s_seed.yy",},"order":10,},
     {"id":{"name":"o_cactus","path":"objects/o_cactus/o_cactus.yy",},"order":0,},
