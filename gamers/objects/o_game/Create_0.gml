@@ -1,6 +1,3 @@
-// TODO: pause screen
-global.gamePaused = false;
-
 // slope collision initialisation
 heights_to_get = sprite_get_width(s_collision);
 tiles = heights_to_get / TILE_SIZE;
