@@ -17,6 +17,7 @@
     {"id":{"name":"s_popup_w","path":"sprites/s_popup_w/s_popup_w.yy",},"order":11,},
     {"id":{"name":"o_interact","path":"objects/o_interact/o_interact.yy",},"order":0,},
     {"id":{"name":"s_cactus","path":"sprites/s_cactus/s_cactus.yy",},"order":13,},
+    {"id":{"name":"camera","path":"scripts/camera/camera.yy",},"order":4,},
     {"id":{"name":"s_midori","path":"sprites/s_midori/s_midori.yy",},"order":3,},
     {"id":{"name":"s_cloud","path":"sprites/s_cloud/s_cloud.yy",},"order":14,},
     {"id":{"name":"o_popup_e","path":"objects/o_popup_e/o_popup_e.yy",},"order":2,},
