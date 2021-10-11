@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Defenders",
+    "path": "folders/Sprites/Defenders.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_cactus",

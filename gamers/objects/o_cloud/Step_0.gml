@@ -10,7 +10,7 @@ vsp += SPD_GRAVITY;
 #endregion
 
 // Is my middle center touching floor at the start of frame
-var grounded = (in_floor(tilemap,x,bbox_bottom+1) >= 0);
+var grounded = (scr_collision_in_floor(tilemap,x,bbox_bottom+1) >= 0);
 
 #region Fractions
 // Re apply fractions
@@ -69,7 +69,7 @@ if (tilemap_get_at_pixel(tilemap,x,bbox_bottom+vsp) <= 1)
 	}
 }
 
-var floor_dist = in_floor(tilemap,x,bbox_bottom+vsp);
+var floor_dist = scr_collision_in_floor(tilemap,x,bbox_bottom+vsp);
 if (floor_dist >= 0)
 {
 	y += vsp;
@@ -92,7 +92,7 @@ if (grounded)
 		if (tilemap_get_at_pixel(tilemap,x,bbox_bottom+1) > 1)
 		{
 			// move there
-			y += abs(in_floor(tilemap,x,bbox_bottom+1));
+			y += abs(scr_collision_in_floor(tilemap,x,bbox_bottom+1));
 		}
 	}
 }

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Nature",
+    "path": "folders/Sprites/Nature.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_midori_idle",

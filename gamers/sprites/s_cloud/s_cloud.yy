@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Pollution",
+    "path": "folders/Sprites/Pollution.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_cloud",

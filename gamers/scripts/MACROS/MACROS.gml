@@ -3,4 +3,6 @@
 #macro SPD_JUMP 7
 
 #macro TILE_SIZE 32
+#macro TILE_SOLID_NUMBER 1
+
 #macro INVENTORY_SLOTS 6

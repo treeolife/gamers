@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "camera",
+  "name": "scr_collision_in_floor",
   "tags": [],
   "resourceType": "GMScript",
 }

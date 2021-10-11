@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "collision",
+  "name": "scr_movement_vertical",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -16,7 +16,7 @@ function cam_clamp_to_map(view_w_half,view_h_half)
 ///@arg view_width
 ///@arg view_height
 ///@arg cam_speed
-function cam_follow(follow,view_width,view_height,cam_speed=4)
+function scr_camera_follow(follow,view_width,view_height,cam_speed=4)
 {
 	view_w_half = view_width * 0.5;
 	view_h_half = view_height * 0.5;
