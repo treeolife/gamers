@@ -28,7 +28,7 @@
     "path": "folders/Objects/Meta.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_inventory",
+  "name": "o_dashboard",
   "tags": [],
   "resourceType": "GMObject",
 }
