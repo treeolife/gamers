@@ -2,4 +2,7 @@
 /// @param {ds_map} graph
 /// @description Destroys the graph
 
-ds_map_destroy(argument0);
+function graph_menu_destroy(graph)
+{
+	ds_map_destroy(graph);
+}

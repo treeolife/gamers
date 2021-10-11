@@ -9,6 +9,7 @@ graph = {
     ...
 }
 */
-
-
-return ds_map_create();
+function graph_menu_create()
+{
+	return ds_map_create();
+}

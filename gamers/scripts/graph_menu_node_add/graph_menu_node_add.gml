@@ -12,12 +12,15 @@ node = {
 }
 */
 
-//create a new key
-var _new_node = ds_map_create();
-ds_map_add(_new_node, "Left", undefined);
-ds_map_add(_new_node, "Right", undefined);
-ds_map_add(_new_node, "Up", undefined);
-ds_map_add(_new_node, "Down", undefined);
+function graph_menu_node_add(graph, data)
+{
+	//create a new key
+	var _new_node = ds_map_create();
+	ds_map_add(_new_node, "Left", undefined);
+	ds_map_add(_new_node, "Right", undefined);
+	ds_map_add(_new_node, "Up", undefined);
+	ds_map_add(_new_node, "Down", undefined);
 
-//add that key to the map
-ds_map_add_map(argument0, argument1, _new_node);
+	//add that key to the map
+	ds_map_add_map(argument0, argument1, _new_node);
+}

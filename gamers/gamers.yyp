@@ -3,6 +3,7 @@
     {"id":{"name":"scr_collision_vertical","path":"scripts/scr_collision_vertical/scr_collision_vertical.yy",},"order":3,},
     {"id":{"name":"t_collision","path":"tilesets/t_collision/t_collision.yy",},"order":1,},
     {"id":{"name":"r_init","path":"rooms/r_init/r_init.yy",},"order":2,},
+    {"id":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"order":4,},
     {"id":{"name":"s_mountain","path":"sprites/s_mountain/s_mountain.yy",},"order":0,},
     {"id":{"name":"o_popup_w","path":"objects/o_popup_w/o_popup_w.yy",},"order":2,},
     {"id":{"name":"scr_collision_grounded","path":"scripts/scr_collision_grounded/scr_collision_grounded.yy",},"order":1,},
@@ -31,6 +32,7 @@
     {"id":{"name":"o_popup_e","path":"objects/o_popup_e/o_popup_e.yy",},"order":1,},
     {"id":{"name":"scr_collision_horizontal","path":"scripts/scr_collision_horizontal/scr_collision_horizontal.yy",},"order":2,},
     {"id":{"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},"order":0,},
+    {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
     {"id":{"name":"s_sunflower","path":"sprites/s_sunflower/s_sunflower.yy",},"order":1,},
     {"id":{"name":"o_midori","path":"objects/o_midori/o_midori.yy",},"order":3,},
     {"id":{"name":"s_inventory","path":"sprites/s_inventory/s_inventory.yy",},"order":1,},
@@ -67,9 +69,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},},
     {"roomId":{"name":"r_init","path":"rooms/r_init/r_init.yy",},},
     {"roomId":{"name":"r_game","path":"rooms/r_game/r_game.yy",},},
-    {"roomId":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
