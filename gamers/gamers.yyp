@@ -17,6 +17,7 @@
     {"id":{"name":"s_seed","path":"sprites/s_seed/s_seed.yy",},"order":0,},
     {"id":{"name":"graph_menu_create","path":"scripts/graph_menu_create/graph_menu_create.yy",},"order":0,},
     {"id":{"name":"o_cactus","path":"objects/o_cactus/o_cactus.yy",},"order":0,},
+    {"id":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},"order":4,},
     {"id":{"name":"s_popup_w","path":"sprites/s_popup_w/s_popup_w.yy",},"order":3,},
     {"id":{"name":"scr_movement_input","path":"scripts/scr_movement_input/scr_movement_input.yy",},"order":0,},
     {"id":{"name":"o_interact","path":"objects/o_interact/o_interact.yy",},"order":2,},
@@ -68,6 +69,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"r_init","path":"rooms/r_init/r_init.yy",},},
     {"roomId":{"name":"r_game","path":"rooms/r_game/r_game.yy",},},
+    {"roomId":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
