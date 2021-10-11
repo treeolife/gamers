@@ -6,7 +6,7 @@ key_plant	= ord("X");
 
 var player_speed = SPD_WALK;
 
-hsp = scr_movement_horizontal_player_input(key_right,key_left,player_speed);
+hsp = scr_movement_input(key_right,key_left,player_speed);
 vsp += SPD_GRAVITY;  
 
 #region When to Jump
