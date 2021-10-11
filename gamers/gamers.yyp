@@ -17,6 +17,7 @@
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":1,},
     {"id":{"name":"s_seed","path":"sprites/s_seed/s_seed.yy",},"order":0,},
     {"id":{"name":"graph_menu_create","path":"scripts/graph_menu_create/graph_menu_create.yy",},"order":0,},
+    {"id":{"name":"scr_text_outline","path":"scripts/scr_text_outline/scr_text_outline.yy",},"order":12,},
     {"id":{"name":"o_cactus","path":"objects/o_cactus/o_cactus.yy",},"order":0,},
     {"id":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},"order":4,},
     {"id":{"name":"s_popup_w","path":"sprites/s_popup_w/s_popup_w.yy",},"order":3,},
