@@ -1,3 +1,5 @@
+event_inherited();
+
 tilemap = layer_tilemap_get_id("Collision");
 
 hsp = SPD_WALK / 2;

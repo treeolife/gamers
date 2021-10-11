@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_sunflower",
-    "path": "sprites/s_sunflower/s_sunflower.yy",
+    "name": "s_treeolife",
+    "path": "sprites/s_treeolife/s_treeolife.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Plants.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_sunflower",
+  "name": "o_tree",
   "tags": [],
   "resourceType": "GMObject",
 }

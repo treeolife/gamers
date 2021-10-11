@@ -1,7 +1,10 @@
 draw_self();
 
-hp = 100;
+hp+=0.01;
 
-if (hp != noone) {
-	draw_text_transformed(x-TILE_SIZE/2,y-TILE_SIZE,"hp: " + string(hp),0.5,0.5,1);
-}
+var pixels_up = TILE_SIZE+4;
+
+draw_sprite_stretched(s_healthbar_bg,0,x-healthbar_width/2,y-pixels_up,healthbar_width,healthbar_height); 
+if (defender) draw_sprite_stretched(s_healthbar_g,0,x-healthbar_width/2,y-pixels_up,clamp(hp/hp_max,0,1) * healthbar_width, healthbar_height); 
+else draw_sprite_stretched(s_healthbar,0,x-healthbar_width/2,y-pixels_up,clamp(hp/hp_max,0,1) * healthbar_width, healthbar_height); 
+draw_sprite_stretched(s_healthbar_border,0,x-healthbar_width/2,y-pixels_up,healthbar_width,healthbar_height); 

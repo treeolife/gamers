@@ -1,3 +1,7 @@
-//healthbar = instance_create_layer(x,y,layer,o_healthbar);
+hp = 50;
+hp_max = hp;
 
-hp = 0;
+healthbar_width = 32;
+healthbar_height = 12;
+healthbar_x = (320/2) - (healthbar_width/2);
+healthbar_y = ystart - 100;
