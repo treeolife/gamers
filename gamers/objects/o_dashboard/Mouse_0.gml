@@ -1,0 +1,1 @@
+global.water-=0.1;

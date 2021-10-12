@@ -27,12 +27,10 @@
 
 water_max = global.water;
 
-waterbar_width = 250;
-waterbar_height = 12;
+waterbar_width = 512;
+waterbar_height = 72;
 waterbar_x = 20;
 waterbar_y = ystart - 20;
-
-global.water-=0.01;
 
 draw_sprite_stretched(s_healthbar_bg,0,waterbar_x,waterbar_y,waterbar_width,waterbar_height); 
 draw_sprite_stretched(s_waterbar,0,waterbar_x,waterbar_y,clamp(global.water/water_max,0,1) * waterbar_width, waterbar_height); 
