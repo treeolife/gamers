@@ -25,10 +25,10 @@
 //	}
 //}
 
-water_max = global.water;
+water_max = 100;
 
-waterbar_width = 512;
-waterbar_height = 72;
+waterbar_width = 360;
+waterbar_height = 24;
 waterbar_x = 20;
 waterbar_y = ystart - 20;
 
