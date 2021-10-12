@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_treeolife",
-    "path": "sprites/s_treeolife/s_treeolife.yy",
+    "name": "s_treeolife_stage_one",
+    "path": "sprites/s_treeolife_stage_one/s_treeolife_stage_one.yy",
   },
   "solid": false,
   "visible": true,
