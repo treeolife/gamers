@@ -12,12 +12,17 @@ if (!has_been_interacted)
 		{
 			ds_map_add(global.inventory, 2, 1);
 		}
-		cactus_id = instance_create_layer(x,y+15,layer,o_cactus);
-		cactus_id.visible = true;
+		
+		var cost_water = 15;
+		
+		if (global.water >= cost_water)
+		{
+			cactus_id = instance_create_layer(x,y+15,layer,o_cactus);
+			cactus_id.visible = true;
+			global.water -= cost_water;
+		}
 		instance_destroy(popup_e_id);
 		instance_destroy(popup_w_id);
 		instance_destroy();
 	}
 }
-
-global.water -= 0.5;

@@ -28,7 +28,7 @@
     "path": "folders/Objects/Meta.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_dashboard",
+  "name": "o_ui",
   "tags": [],
   "resourceType": "GMObject",
 }

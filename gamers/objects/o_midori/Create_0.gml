@@ -1,4 +1,4 @@
-global.seeds = 0;
+global.seeds = 8;
 global.inventory = ds_map_create();
 
 tilemap = layer_tilemap_get_id("Collision");

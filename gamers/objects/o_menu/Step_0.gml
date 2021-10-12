@@ -39,9 +39,11 @@ if (menu_x > gui_width + 150) && (menu_committed != -1)
 	switch (menu_committed)
 	{
 		case menu_options.level_one:
+			global.seeds = 2;
 			room_goto(r_level_one);
 			break;
 		case menu_options.level_two:
+			global.seeds = 4;
 			room_goto(r_level_two);
 			break;
 		case menu_options.level_three:

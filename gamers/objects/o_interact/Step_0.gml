@@ -46,9 +46,9 @@ var grounded = (scr_collision_in_floor(tilemap,x,bbox_bottom+1) >= 0);
 
 if (grounded && !created)
 {
-	popup_e_id = instance_create_layer(x-16,y-32,layer,o_popup_e);
-	popup_w_id = instance_create_layer(x-16,y-64,layer,o_popup_w);
-	popup_e_id.visible = false;
+	//popup_e_id = instance_create_layer(x-16,y-32,layer,o_popup_e);
+	popup_w_id = instance_create_layer(x-16,y-32,layer,o_popup_w);
+	//popup_e_id.visible = false;
 	popup_w_id.visible = false;
 	created = true;
 }
@@ -58,12 +58,12 @@ if (!has_been_interacted and grounded)
 {
 	if (collision_circle(x,y,radius,o_midori,false,true))
 	{
-		popup_e_id.visible = true;
+		//popup_e_id.visible = true;
 		popup_w_id.visible = true;
 	} 
 	else 
 	{
-		popup_e_id.visible = false;
+		//popup_e_id.visible = false;
 		popup_w_id.visible = false;
 	}
 }
