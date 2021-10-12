@@ -38,17 +38,24 @@ if ((p1 == 1) || (p2 == 1))
 	else x = x - (x mod TILE_SIZE) - (bbox_left - x);
 	hsp = 0;
 	if (go_left)
+	if (key_right)
+	{
+		image_xscale = 1;
 		go_left = false;
+	}
 	else
+	{
+		image_xscale = -1;
 		go_left = true;
+	}
 }
 
 if (hsp == 0) 
 {
 	if (go_left)
-		hsp = -SPD_WALK/2;
+		hsp = -pollution_speed;
 	else
-		hsp = SPD_WALK/2;
+		hsp = pollution_speed;
 }
 
 x += hsp;
