@@ -2,12 +2,13 @@
 
 var offset = menu_txt_offset;
 
-draw_set_font(fMenu);
+draw_set_font(fTitle);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-scr_text_outline(40,30,offset,"Tree of Life",2,2,0);
+scr_text_outline(40,30,offset,"Tree of Life",1,1,0);
 draw_set_color(c_white);
-draw_text_transformed(40,30,"Tree of Life",2,2,0);
+draw_text_transformed(40,30,"Tree of Life",1,1,0);
+draw_set_font(fMenu);
 
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);

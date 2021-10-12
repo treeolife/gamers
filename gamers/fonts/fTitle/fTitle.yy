@@ -131,7 +131,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "fMenu",
+  "name": "fTitle",
   "tags": [],
   "resourceType": "GMFont",
 }

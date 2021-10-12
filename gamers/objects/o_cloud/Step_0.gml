@@ -39,22 +39,30 @@ if ((p1 == 1) || (p2 == 1))
 	hsp = 0;
 	if (go_left)
 	{
-		image_xscale = 1;
 		go_left = false;
 	}
 	else
 	{
-		image_xscale = -1;
 		go_left = true;
 	}
 }
 
+if (go_left)
+	image_xscale = 1;
+else
+	image_xscale = -1;
+
 if (hsp == 0) 
 {
 	if (go_left)
+	{
 		hsp = -pollution_speed;
+	}
 	else
+	{
+		image_xscale = 1;
 		hsp = pollution_speed;
+	}
 }
 
 x += hsp;
