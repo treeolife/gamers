@@ -38,7 +38,6 @@ if ((p1 == 1) || (p2 == 1))
 	else x = x - (x mod TILE_SIZE) - (bbox_left - x);
 	hsp = 0;
 	if (go_left)
-	if (key_right)
 	{
 		image_xscale = 1;
 		go_left = false;
