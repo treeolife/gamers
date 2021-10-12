@@ -4,6 +4,7 @@
     {"id":{"name":"t_collision","path":"tilesets/t_collision/t_collision.yy",},"order":1,},
     {"id":{"name":"r_init","path":"rooms/r_init/r_init.yy",},"order":2,},
     {"id":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"order":4,},
+    {"id":{"name":"r_level_two","path":"rooms/r_level_two/r_level_two.yy",},"order":6,},
     {"id":{"name":"s_healthbar_large_bg","path":"sprites/s_healthbar_large_bg/s_healthbar_large_bg.yy",},"order":8,},
     {"id":{"name":"s_mountain","path":"sprites/s_mountain/s_mountain.yy",},"order":0,},
     {"id":{"name":"o_popup_w","path":"objects/o_popup_w/o_popup_w.yy",},"order":2,},
@@ -18,6 +19,7 @@
     {"id":{"name":"s_treeolife","path":"sprites/s_treeolife/s_treeolife.yy",},"order":2,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":1,},
     {"id":{"name":"s_seed","path":"sprites/s_seed/s_seed.yy",},"order":0,},
+    {"id":{"name":"r_level_one","path":"rooms/r_level_one/r_level_one.yy",},"order":5,},
     {"id":{"name":"graph_menu_create","path":"scripts/graph_menu_create/graph_menu_create.yy",},"order":0,},
     {"id":{"name":"scr_text_outline","path":"scripts/scr_text_outline/scr_text_outline.yy",},"order":12,},
     {"id":{"name":"o_cactus","path":"objects/o_cactus/o_cactus.yy",},"order":0,},
@@ -59,6 +61,7 @@
     {"id":{"name":"s_healthbar_border","path":"sprites/s_healthbar_border/s_healthbar_border.yy",},"order":6,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":2,},
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"order":3,},
+    {"id":{"name":"s_water","path":"sprites/s_water/s_water.yy",},"order":2,},
     {"id":{"name":"graph_menu_node_add","path":"scripts/graph_menu_node_add/graph_menu_node_add.yy",},"order":2,},
     {"id":{"name":"s_items","path":"sprites/s_items/s_items.yy",},"order":1,},
   ],
@@ -84,6 +87,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"r_init","path":"rooms/r_init/r_init.yy",},},
     {"roomId":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},},
+    {"roomId":{"name":"r_level_one","path":"rooms/r_level_one/r_level_one.yy",},},
+    {"roomId":{"name":"r_level_two","path":"rooms/r_level_two/r_level_two.yy",},},
     {"roomId":{"name":"r_game","path":"rooms/r_game/r_game.yy",},},
   ],
   "Folders": [

@@ -1,3 +1,5 @@
+event_inherited();
+
 #region Temp vars
 var p1,p2,bbox_side;
 #endregion
@@ -56,12 +58,12 @@ if (hsp == 0)
 {
 	if (go_left)
 	{
-		hsp = -pollution_speed;
+		hsp = -pollution_speed * SPD_WALK / 16;
 	}
 	else
 	{
 		image_xscale = 1;
-		hsp = pollution_speed;
+		hsp = pollution_speed * SPD_WALK / 16;
 	}
 }
 

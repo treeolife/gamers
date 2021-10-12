@@ -39,10 +39,14 @@ if (menu_x > gui_width + 150) && (menu_committed != -1)
 	switch (menu_committed)
 	{
 		case menu_options.level_one:
+			room_goto(r_level_one);
+			break;
 		case menu_options.level_two:
+			room_goto(r_level_two);
+			break;
 		case menu_options.level_three:
 		default:
-			room_goto_next();
+			room_goto(r_game);
 			break;
 		case menu_options.restart:
 			game_restart();

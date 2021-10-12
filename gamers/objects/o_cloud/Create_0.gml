@@ -2,7 +2,7 @@ event_inherited();
 
 tilemap = layer_tilemap_get_id("Collision");
 
-hsp = SPD_WALK / 4;
+hsp = pollution_speed;
 vsp = 0;
 hsp_fraction = 0;
 vsp_fraction = 0;
