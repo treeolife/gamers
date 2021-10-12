@@ -1,3 +1,5 @@
+var cost_water = 20;
+
 if (!has_been_interacted)
 {
 	if (collision_circle(x,y,radius,o_midori,false,true))
@@ -13,15 +15,13 @@ if (!has_been_interacted)
 			ds_map_add(global.inventory, 2, 1);
 		}
 		
-		var cost_water = 15;
-		
 		if (global.water >= cost_water)
 		{
 			cactus_id = instance_create_layer(x,y+15,layer,o_cactus);
 			cactus_id.visible = true;
+			
 			global.water -= cost_water;
 		}
-		instance_destroy(popup_e_id);
 		instance_destroy(popup_w_id);
 		instance_destroy();
 	}
