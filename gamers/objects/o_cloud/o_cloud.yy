@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_cloud",
-    "path": "sprites/s_cloud/s_cloud.yy",
+    "name": "s_pollution_air",
+    "path": "sprites/s_pollution_air/s_pollution_air.yy",
   },
   "solid": false,
   "visible": true,

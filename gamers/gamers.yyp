@@ -28,6 +28,7 @@
     {"id":{"name":"o_interact","path":"objects/o_interact/o_interact.yy",},"order":2,},
     {"id":{"name":"s_cactus","path":"sprites/s_cactus/s_cactus.yy",},"order":0,},
     {"id":{"name":"graph_menu_node_add_edge","path":"scripts/graph_menu_node_add_edge/graph_menu_node_add_edge.yy",},"order":3,},
+    {"id":{"name":"s_pollution_air","path":"sprites/s_pollution_air/s_pollution_air.yy",},"order":1,},
     {"id":{"name":"scr_camera_follow","path":"scripts/scr_camera_follow/scr_camera_follow.yy",},"order":0,},
     {"id":{"name":"s_healthbar_bg","path":"sprites/s_healthbar_bg/s_healthbar_bg.yy",},"order":5,},
     {"id":{"name":"s_healthbar_g","path":"sprites/s_healthbar_g/s_healthbar_g.yy",},"order":10,},
