@@ -27,11 +27,11 @@
 
 water_max = 100;
 
-waterbar_width = 360;
-waterbar_height = 24;
+waterbar_width = 324;
+waterbar_height = 96;
 waterbar_x = 20;
 waterbar_y = ystart - 20;
 
-draw_sprite_stretched(s_healthbar_bg,0,waterbar_x,waterbar_y,waterbar_width,waterbar_height); 
+draw_sprite_stretched(s_healthbar_large_bg,0,waterbar_x,waterbar_y,waterbar_width,waterbar_height); 
 draw_sprite_stretched(s_waterbar,0,waterbar_x,waterbar_y,clamp(global.water/water_max,0,1) * waterbar_width, waterbar_height); 
-draw_sprite_stretched(s_healthbar_border,0,waterbar_x,waterbar_y,waterbar_width,waterbar_height); 
+draw_sprite_stretched(s_healthbar_large_border,0,waterbar_x,waterbar_y,waterbar_width,waterbar_height); 

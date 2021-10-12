@@ -19,3 +19,5 @@ if (!has_been_interacted)
 		instance_destroy();
 	}
 }
+
+global.water -= 0.5;

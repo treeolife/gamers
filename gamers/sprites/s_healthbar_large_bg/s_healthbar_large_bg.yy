@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6b89cc5b-12f4-4259-8e2f-54e2bdd6af0e","path":"sprites/s_healthbar_border22/s_healthbar_border22.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6b89cc5b-12f4-4259-8e2f-54e2bdd6af0e","path":"sprites/s_healthbar_border22/s_healthbar_border22.yy",},"LayerId":{"name":"82d89aaa-e1f8-48db-bb8d-5945586afedc","path":"sprites/s_healthbar_border22/s_healthbar_border22.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_healthbar_border22","path":"sprites/s_healthbar_border22/s_healthbar_border22.yy",},"resourceVersion":"1.0","name":"6b89cc5b-12f4-4259-8e2f-54e2bdd6af0e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6b89cc5b-12f4-4259-8e2f-54e2bdd6af0e","path":"sprites/s_healthbar_large_bg/s_healthbar_large_bg.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6b89cc5b-12f4-4259-8e2f-54e2bdd6af0e","path":"sprites/s_healthbar_large_bg/s_healthbar_large_bg.yy",},"LayerId":{"name":"82d89aaa-e1f8-48db-bb8d-5945586afedc","path":"sprites/s_healthbar_large_bg/s_healthbar_large_bg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_healthbar_large_bg","path":"sprites/s_healthbar_large_bg/s_healthbar_large_bg.yy",},"resourceVersion":"1.0","name":"6b89cc5b-12f4-4259-8e2f-54e2bdd6af0e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_healthbar_border22","path":"sprites/s_healthbar_border22/s_healthbar_border22.yy",},
+    "spriteId": {"name":"s_healthbar_large_bg","path":"sprites/s_healthbar_large_bg/s_healthbar_large_bg.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9bdc0d36-afc6-4171-b742-de307f2bf61b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b89cc5b-12f4-4259-8e2f-54e2bdd6af0e","path":"sprites/s_healthbar_border22/s_healthbar_border22.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c5cc809c-0c07-43ec-8ce3-8421a4a440c9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b89cc5b-12f4-4259-8e2f-54e2bdd6af0e","path":"sprites/s_healthbar_large_bg/s_healthbar_large_bg.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,13 +54,13 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 5,
-    "yorigin": 12,
+    "xorigin": 4,
+    "yorigin": 11,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_healthbar_border22","path":"sprites/s_healthbar_border22/s_healthbar_border22.yy",},
+    "parent": {"name":"s_healthbar_large_bg","path":"sprites/s_healthbar_large_bg/s_healthbar_large_bg.yy",},
     "resourceVersion": "1.3",
-    "name": "s_healthbar_border",
+    "name": "s_healthbar_large_bg",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_healthbar_border22",
+  "name": "s_healthbar_large_bg",
   "tags": [],
   "resourceType": "GMSprite",
 }
